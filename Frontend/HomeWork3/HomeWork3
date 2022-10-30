@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kodluyoruz-Frontend</title>
+</head>
+
+<body>
+    
+
+        <h1> <b> Mücver Tarifi</b></h1>
+
+
+        <img src="https://cdn.yemek.com/mnresize/940/940/uploads/2014/07/mucver-ytk-site.jpg" width="600" height="500"
+            alt="mücver">
+    
+   
+
+    <main>
+        <aside>
+            <h2> Gerekli Malzemeler</h2>
+            <ul>
+                <i> <li>3 Adet yumurta</li>
+                <li>3 Adet kabak</li>
+                <li>Yarım su bardağı un</li>
+                <li>Tuz</li>
+                <li>Karabiber</li>
+                <li>Pul biber</li>
+                <li>İsteğe göre kaşar</li>
+            </i>
+            </ul>
+    
+            <h3>Nasıl Yapılır?</h3>
+            <ul>
+                <i> <li>İlk olarak mücver malzemelerini hazırlayalım. Kabakları soyarak rendenin iri kısmında rendeleyelim.</li>
+                <li>Kabak Mücver harcını hazırlayalım. Yumurtaları derince bir kaba alalım.</li>
+
+                <li>Üzerine un, pul biber, karabiber ve tuzu ilave edilerek pürüzsüz kıvam alana kadar çırpalım.
+                     Ardından suyunu iyice sıktığımız kabakları ve doğranmış kaşarları eklenerek karıştıralım. 
+                     Mücver harcımız hazır.</li>
+
+                <li> Mücveri tavada pişirelim. Teflon tavaya az miktarda sıvı yağ alalım,
+                     kabak karışımından bir kaşık dökelim, çevirerek kızartalım. 
+                    Mücverlerin her iki yüzü de kızardıktan sonra havlu kağıt serilmiş tabağa alalım.</li>
+                <li>Kabak mücveri servis edelim Mücverleri ister sıcak, isterseniz soğuk olarak servis edebilirsiniz.</li>
+               
+            </i>
+            </ul>
+           
+
+     
+    <footer>
+        <h1>Tarif Sahibi</h1>
+         
+        <a href="https://github.com/pervincaliskan">
+        <p> <img src="https://play-lh.googleusercontent.com/PCpXdqvUWfCW1mXhH1Y_98yBpgsWxuTSTofy3NGMo9yBTATDyzVkqU580bfSln50bFU"  width="30" heigh="60"></a></p>
+    </footer>
+</body>
+
+</html>
