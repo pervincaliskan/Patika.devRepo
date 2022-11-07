@@ -1,0 +1,10 @@
+p > span{
+    color:orange;
+  }
+  p > span >b{
+    color:blue;
+  }
+  div > ul >li#first{
+    color:red;
+  }
+ 
