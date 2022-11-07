@@ -1,0 +1,46 @@
+/* class -> .text-red {}  - nokta ile class*/
+/* id -> #id-bilgisi{} - id unique dir diyez kullandık*/
+/* Css selectors*/
+.color-blue.fw-normal{
+    color : blue;
+    font-weight: normal;
+}
+li:first-child{
+    color:green;
+}
+li:last-child{
+    color:pink;
+}
+
+h1,h2, h3 { /* birden fazla heading e aynı anda renk verdil */
+    color: #2c2c2c
+}
+h1 {
+    font-size:30px;
+    
+}
+p {
+    font-size: 20px;
+}
+#first-article {  /* id diyezle basliyor ve bir tane id vardır unique*/
+    font-size: 40px;
+}
+.text-red {
+    color:red;
+}
+
+
+.fs-16 {
+    font-size: 5px ;
+}
+
+.fs-small {
+    font-size: 10px ;
+}
+.fs-midium {
+    font-size: 20px ;
+}
+
+.fs-largar {
+    font-size: 30px ;
+}
