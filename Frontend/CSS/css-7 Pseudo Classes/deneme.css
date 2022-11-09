@@ -1,0 +1,46 @@
+/* --Sahte Sınıf Seçiciler (Pseudo classes)
+Sahte sınıflar kullanarak HTML etiketlerine CSS uygulayabiliriz.
+ Kullanımları selector:pseudo class{}şeklindedir.
+:link 
+
+*/
+a#google:link {
+  color: red;
+}
+/* :hover
+Seçici ile işaretlenen etiketin üzerine mouse ile gelindiğinde CSS uygalanır ve mouse üzerinde değilken etki kaybolur.*/
+a.test:hover {
+  color: red;
+}
+/* :active
+Mouse ile tıklandığında CSS uygulanır. Tıklama kaldırıldığında etki kaybolur. */
+
+a:active {
+  position: relative;
+  top: 5px;
+}
+/* :first-child
+İlk child etikete CSS uygulanır. */
+ul > li:first-child {
+  color: orange;
+}
+/* :last-child
+Son child etikete CSS uygular. */
+/* 
+::first-letter
+Blok seviyesinde bir etiketteki ilk harfe CSS uygular. 
+<span> blok seviyesinde bir etiket olmadığından bu pseudo class uygulanamaz.
+ */
+ p::first-letter {
+  font-size: 20px;
+  color: orange;
+}
+/* ::before
+Belirtilen etiketin önüne CSS uygular. */
+
+p::before {
+  content: "selam";
+  color: orange;
+}
+/* ::after
+Belirtilen etiketin sonuna CSS uygular. Kullanımı ::before ile aynıdır. */
